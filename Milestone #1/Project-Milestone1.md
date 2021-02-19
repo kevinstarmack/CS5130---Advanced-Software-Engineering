@@ -19,14 +19,14 @@ When the code is delivered to me for testing, this would be the first test case 
 
 __Code__
 * From a pseudocode standpint, here is what I want to achieve
--sh
+'''sh
 $git clone
--sh
+'''
 
 * However, this is at the point I am now:
--sh
+'''sh
 $git clone
--sh
+'''
 
 __Updated Project Report__
 * I will move away from testing educational and medical requirements documents to doing the same with software test cases.
