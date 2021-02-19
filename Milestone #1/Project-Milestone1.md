@@ -19,14 +19,18 @@ When the code is delivered to me for testing, this would be the first test case 
 
 __Code__
 * From a pseudocode standpint, here is what I want to achieve
-'''sh
-$git clone
-'''
+
+```sh
+$ --add-modules java.se.ee
+$ java -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -file input.txt
+```
 
 * However, this is at the point I am now:
-'''sh
-$git clone
-'''
+
+```sh
+$ --add-modules java.se.ee
+$ java -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -file input.txt
+```
 
 __Updated Project Report__
 * I will move away from testing educational and medical requirements documents to doing the same with software test cases.
