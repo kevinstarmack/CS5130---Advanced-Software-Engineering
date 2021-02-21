@@ -104,4 +104,4 @@ ___Example Test Steps___:
    4. Enter the password of the registered user
    5. Click ‘Sign In’
 
-* _Expected Result: A page displaying the gmail user’s inbox should load, showing any new message at the top of the page.
+* Expected Result: A page displaying the gmail user’s inbox should load, showing any new message at the top of the page.
