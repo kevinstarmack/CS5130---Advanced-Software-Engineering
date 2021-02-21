@@ -18,11 +18,15 @@ __In regards to knowing which techniques to use and consolidating my project app
 When the code is delivered to me for testing, this would be the first test case to execute.
 
 __Code__
-* From a pseudocode standpint, here is what I want to achieve
+* From a very-high levelpseudocode standpint, here is what I want to achieve
 
 ```sh
-$ --add-modules java.se.ee
-$ java -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -file input.txt
+# input file in any format
+# parse file => grab temporal and spacial 'measurements' & compare key words in requirements DB (this would require some manual work)
+    # another implementation would be supervised learning
+# determine if phrases are requirements
+# use information surronding the requirement to generate a test case
+# output info to a .csv or .txt
 ```
 
 * However, this is at the point I am now:
