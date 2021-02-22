@@ -203,7 +203,7 @@ __Updated Project Report__
 
 * I will also be using and researching more the __NLTK__ and how that all ties back into Requirements Engineering.
 * Here are some of the starting steps of downloading NLTK as well its applications,
-__NLTK Documentation__:https://www.nltk.org/
+__NLTK Documentation__: https://www.nltk.org/
 ###### NLTK Installation Steps
 * Once you have Python installed, download and install NLTK:
 ```sh
@@ -213,7 +213,7 @@ pip install nltk
 ```sh
 python -m nltk.downloader popular
 ```
-* If you have lots of storage space and good bandwidth, you can also use '''sh python -m nltk.downloader all '''. See NLTK's installation page for help.
+* If you have lots of storage space and good bandwidth, you can also use ```sh python -m nltk.downloader all ```. See NLTK's installation page for help.
 * There's also a user interface to select data to download, which you can start with the Python shell:
 ```sh
 Python 3.8.2 ...
