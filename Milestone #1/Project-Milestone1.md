@@ -202,25 +202,58 @@ __Updated Project Report__
     * Assumption: a supported browser is being used.
 
 * I will also be using and researching more the __NLTK__ and how that all ties back into Requirements Engineering.
+* Here are some of the starting steps of downloading NLTK as well its applications,
 __NLTK Documentation__:https://www.nltk.org/
-
+###### NLTK Installation Steps
 * Once you have Python installed, download and install NLTK:
-'''sh
+```sh
 pip install nltk
-'''
+```
 * Then install NLTK Data:
-'''sh
+```sh
 python -m nltk.downloader popular
-'''
+```
 * If you have lots of storage space and good bandwidth, you can also use '''sh python -m nltk.downloader all '''. See NLTK's installation page for help.
 * There's also a user interface to select data to download, which you can start with the Python shell:
-'''sh
+```sh
 Python 3.8.2 ...
 Type "help", ...
 
 >>> import nltk
 >>> nltk.download()
-'''
+```
+* ___Collocation refers to two (or more) words that tend to appear frequently together. Collocations help in understanding text formation and aid in text search and similarity comparison.___
+* The above can be used specfically for temporal or logistical requirements by combining keywords for parsing. The first part of the 2 code blocks deals with the __Preprocessing__ (___tokenization, de-stopwording, and de-punctuating)
+```sh
+# Tokenize
+from nltk.tokenize import word_tokenize
+text = word_tokenize(text)
+
+# Remove stopwords
+from nltk.corpus import stopwords
+stops = stopwords.words('english')
+# print(stops)
+words = [word for word in text if word not in stops]
+
+# Remove punctuations
+import string
+punctuations = list(string.punctuation)
+# print(punctuations)
+
+words = [word for word in words if word not in punctuations]
+print("Without punctuations:", words)
+
+Preprocessed: ['The', 'Project', 'Gutenberg', 'EBook', 'Pride', 'Prejudice', 'Jane', 'Austen']
+```
+* Trigrams and Bi-grams could be used extensively once a bit of work is done. Example of a trigram (3 words that appear together) in NLTK is:
+```sh
+# Trigrams
+from nltk.collocations import TrigramCollocationFinder
+from nltk.metrics import TrigramAssocMeasures
+trigram_collocation = TrigramCollocationFinder.from_words(text)
+# Top 10 most occurring collocations
+print("Trigrams:", trigram_collocation.nbest(TrigramAssocMeasures.likelihood_ratio, 10))
+```
 
 ___Example Test Steps___:
 
