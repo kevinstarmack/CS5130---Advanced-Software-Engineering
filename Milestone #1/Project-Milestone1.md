@@ -89,7 +89,7 @@ for textLine in textLineList:
         print textLine
 ```
 * I am also looking at __tf-idf__ as a way to further investigate an ML based approach to gathering requirements. Although the below code example is in JavaScript, note that this was from a previous course taken in Requirements Engineering. A simple JavaScript to Python conversion would not be difficult.
-* Link to repo here: [url] https://github.com/kevinstarmack/Requirements-Eng---Traceability
+* Link to repo here: https://github.com/kevinstarmack/Requirements-Eng---Traceability
 * Below is the main sample of code from the project:
 ```sh
 //can take in any number of FRs in "inputs"
@@ -202,7 +202,7 @@ __Updated Project Report__
     * Assumption: a supported browser is being used.
 
 * I will also be using and researching more the __NLTK__ and how that all ties back into Requirements Engineering.
-__NLTK Documentation__:[url]https://www.nltk.org/
+__NLTK Documentation__:https://www.nltk.org/
 
 ___Example Test Steps___:
 
