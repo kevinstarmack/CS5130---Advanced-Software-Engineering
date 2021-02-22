@@ -18,7 +18,7 @@ __In regards to knowing which techniques to use and consolidating my project app
 When the code is delivered to me for testing, this would be the first test case to execute.
 
 __Code__
-* From a very-high levelpseudocode standpint, here is what I want to achieve
+* From a very-high level pseudocode standpoint, here is what I want to achieve:
 
 ```sh
 # input file in any format
