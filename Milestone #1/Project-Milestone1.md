@@ -213,7 +213,7 @@ pip install nltk
 ```sh
 python -m nltk.downloader popular
 ```
-* If you have lots of storage space and good bandwidth, you can also use ```sh python -m nltk.downloader all ```. See NLTK's installation page for help.
+* If you have lots of storage space and good bandwidth, you can also use ```python -m nltk.downloader all ```. See NLTK's installation page for help.
 * There's also a user interface to select data to download, which you can start with the Python shell:
 ```sh
 Python 3.8.2 ...
