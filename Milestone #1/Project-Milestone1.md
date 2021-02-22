@@ -223,7 +223,7 @@ Type "help", ...
 >>> nltk.download()
 ```
 * ___Collocation refers to two (or more) words that tend to appear frequently together. Collocations help in understanding text formation and aid in text search and similarity comparison.___
-* The above can be used specfically for temporal or logistical requirements by combining keywords for parsing. The first part of the 2 code blocks deals with the __Preprocessing__ (___tokenization, de-stopwording, and de-punctuating)
+* The above can be used specfically for temporal or logistical requirements by combining keywords for parsing. The first part of the 2 code blocks deals with the __Preprocessing__ (___tokenization, de-stopwording, and de-punctuating___)
 ```sh
 # Tokenize
 from nltk.tokenize import word_tokenize
@@ -254,7 +254,8 @@ trigram_collocation = TrigramCollocationFinder.from_words(text)
 # Top 10 most occurring collocations
 print("Trigrams:", trigram_collocation.nbest(TrigramAssocMeasures.likelihood_ratio, 10))
 ```
-
+### In Conclusion:
+* This is what style of test cases I would like to be able to output in my final deliverable
 ___Example Test Steps___:
 
    1. Navigate to gmail.com
