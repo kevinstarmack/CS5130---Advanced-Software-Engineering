@@ -194,6 +194,7 @@ glob.sync(`${INPUTS_FOLDER}*.txt`).forEach(path => {
 ```
 __Updated Project Report__
 * I will move away from testing educational and medical requirements documents to doing the same with software test cases.
+* Such as documents like these: https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
 * Here is an example of a test case:
 
     * Title: Login Page – Authenticate Successfully on gmail.com
