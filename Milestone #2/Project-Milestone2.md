@@ -10,7 +10,7 @@ When building a test scenario, put yourself in the end-user’s shoes. A good te
 
 Test scenarios are often built in spreadsheets. As there appear more and more test cases in the scenario, it can be problematic to find all the relevant info in the spreadsheet. Currently, there are many tools out there to manage test scenarios more efficiently, such as thought mapping software. After the scenario is finished, it is necessary to analyze exactly what we have managed to create. You need to think about whether the scenario is good enough, whether it allows you to verify the design requirements, if the cases are easy to understand and execute by the tester, and if they can be reused.
 
-#### 4. Universality of test cases
+### 4. Universality of test cases
 
 In next (new) projects, we can use some of the test cases from the scenarios that were created earlier in past projects. Often times, when writing a scenario, we can also use part of a test case that has already been written in a scenario for a completely different test case.
 
