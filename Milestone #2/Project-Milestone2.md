@@ -1,3 +1,52 @@
+To create abstract methods in Python, you add the ```@abc.abstractmethod``` decorator to the interface’s methods. In the next example, you update the ```FormalParserInterface``` to include the abstract methods ```.load_data_source()``` and ```.extract_text():```
+
+```sh
+class FormalParserInterface(metaclass=abc.ABCMeta):
+    @classmethod
+    def __subclasshook__(cls, subclass):
+        return (hasattr(subclass, 'load_data_source') and 
+                callable(subclass.load_data_source) and 
+                hasattr(subclass, 'extract_text') and 
+                callable(subclass.extract_text) or 
+                NotImplemented)
+
+    @abc.abstractmethod
+    def load_data_source(self, path: str, file_name: str):
+        """Load in the data set"""
+        raise NotImplementedError
+
+    @abc.abstractmethod
+    def extract_text(self, full_file_path: str):
+        """Extract text from the data set"""
+        raise NotImplementedError
+
+class PdfParserNew(FormalParserInterface):
+    """Extract text from a PDF."""
+    def load_data_source(self, path: str, file_name: str) -> str:
+        """Overrides FormalParserInterface.load_data_source()"""
+        pass
+
+    def extract_text(self, full_file_path: str) -> dict:
+        """Overrides FormalParserInterface.extract_text()"""
+        pass
+
+class EmlParserNew(FormalParserInterface):
+    """Extract text from an email."""
+    def load_data_source(self, path: str, file_name: str) -> str:
+        """Overrides FormalParserInterface.load_data_source()"""
+        pass
+
+    def extract_text_from_email(self, full_file_path: str) -> dict:
+        """A method defined only in EmlParser.
+        Does not override FormalParserInterface.extract_text()
+        """
+        pass
+```
+
+___In the above example, you’ve finally created a formal interface that will raise errors when the abstract methods aren’t overridden.___
+
+* Below are good practices for designing abstract test cases
+
 ### 1. Give a name, description and necessary information for each test case
 
 This is a good practice which allows you to verify right away what a specific test case is about. It makes it easier for testers who did not participate in designing the test cases to find their way in the scenario, and also for those who e.g. created the script but postponed it to work on another project. Each case should contain a short but understandable description of all the information that makes it possible to answer the question “What do I want to test?”, determine the assumptions and preconditions necessary to perform the test, and add the necessary test data to perform it.
