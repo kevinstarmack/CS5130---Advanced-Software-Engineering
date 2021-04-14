@@ -6,6 +6,11 @@
 * Why is the problem important?
 	* Temporal Software Requirements are very key in the field of not only Requirements Engineering but also in Software Engineering. Temporal Requirements are usually the most important from a schedule standpoint in the development process
 
+* __Research Questions
+	(1) aaa
+	(2) bbb
+	(3) ccc
+
 ## Motivation 
 * Tell us the motivation of your approach/study:
 	* I chose to pick this topic because it is very relevant in the field of Requirements Engineering, a field of Computer Science I discovered this year and found very interesting
