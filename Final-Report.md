@@ -2,14 +2,15 @@
 
 ## Introduction 
 * Tell us the problem you are addressing:
-	* aaa
+	* The problem I am addressing is the ambiguity of temporal requirements in software engineering, and how they are important, as well as generating test cases for them
 * Why is the problem important?
-	* aaa
+	* Temporal Software Requirements are very key in the field of not only Requirements Engineering but also in Software Engineering. Temporal Requirements are usually the most important from a schedule standpoint in the development process
+
 ## Motivation 
 * Tell us the motivation of your approach/study:
-	* aaa
+	* I chose to pick this topic because it is very relevant in the field of Requirements Engineering, a field of Computer Science I discovered this year and found very interesting
 * Limitations of existing work
-	* aaa
+	* Existing work is inconclusive if there is actually a good way of determining temporal logic or not. There has been 1 paper about creating test cases through temporal logic, however it was a research paper with no public repository of code. I wanted to see if I could imitate their results
 ## Background  
 * Technical background needed to understand your approach:
 	* aaa
