@@ -18,7 +18,7 @@
 	* aaa
 ## Results
 * Results and analysis of the results
-* aaa
+	* aaa
 * Insights and take-home messages
 	* aaa
 ## Limitations 
