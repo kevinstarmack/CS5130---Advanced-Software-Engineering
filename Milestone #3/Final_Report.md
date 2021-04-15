@@ -54,6 +54,14 @@
 	* Technical limitations were large, in the fact that this is still a theoretical topic without much documentation to back it up. I wanted to have a challenge. I lacked the proper background knowledge going into the project.
 * What you should have done if you had more time
 	* If I had more time (perhaps another semester), I would have liked to be able to test out other software or read other papers. Most importantly, I would want to have a trained classifier
+
+* __Basic Research Questions - Answered__
+	1. Can text classification and part of speech tagging be the key to bridging the gap between formal and natural languages?
+		* Yes, it does appear that these 2 technologies can be used in conjunction in order to do so. Based off of studying and learning the subject, it is very possible.
+	2. Is it possible to implement this in an automated fashion?
+		* Papers have shown that automated Requirements tools are possible, and I was close to implementing a classifier for specifically temporal requirements. I believe with more time and study this could have been achieved.
+	3. How difficult will it be generating test cases for temporal requirements?
+		* This part was difficult for me. In fact I was not really able to make much headway on that as I was very pre-occupied with the text classifier aspect of the project.
 	
 ## Discussion 
 * Future work
