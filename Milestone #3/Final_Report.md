@@ -54,14 +54,6 @@
 	* Technical limitations were large, in the fact that this is still a theoretical topic without much documentation to back it up. I wanted to have a challenge. I lacked the proper background knowledge going into the project.
 * What you should have done if you had more time
 	* If I had more time (perhaps another semester), I would have liked to be able to test out other software or read other papers. Most importantly, I would want to have a trained classifier
-
-* __Basic Research Questions - Answered__
-	1. Can text classification and part of speech tagging be the key to bridging the gap between formal and natural languages?
-		* Yes, it does appear that these 2 technologies can be used in conjunction in order to do so. Based off of studying and learning the subject, it is very possible.
-	2. Is it possible to implement this in an automated fashion?
-		* Papers have shown that automated Requirements tools are possible, and I was close to implementing a classifier for specifically temporal requirements. I believe with more time and study this could have been achieved.
-	3. How difficult will it be generating test cases for temporal requirements?
-		* This part was difficult for me. In fact I was not really able to make much headway on that as I was very pre-occupied with the text classifier aspect of the project.
 	
 ## Discussion 
 * Future work
@@ -71,4 +63,14 @@
 * As I said before: __The largest takeaway was to pick your battles and don’t jump around from idea to idea too much in a short term development process.__
 	* I was never really given a foothold or a good place to start. I hit a lot of dead ends. This has happened in industry to myself and colleagues working in R&D projects.
 	* However, through this project, I have learned a lot about different software tools in ML.
-	* The intertwining of NLP and ML cannot be understressed. Without ML, there wouldn't be NLP. ML is the true workhorse of the modern computing age. 
+	* The intertwining of NLP and ML cannot be understressed. Without ML, there wouldn't be NLP. ML is the true workhorse of the modern computing age.
+ 
+## __Research Questions - Answered__
+* Below are the the answers to the aforementioned research questions:
+
+	1. Can text classification and part of speech tagging be the key to bridging the gap between formal and natural languages?
+		* Yes, it does appear that these 2 technologies can be used in conjunction in order to do so. Based off of studying and learning the subject, it is very possible.
+	2. Is it possible to implement this in an automated fashion?
+		* Papers have shown that automated Requirements tools are possible, and I was close to implementing a classifier for specifically temporal requirements. I believe with more time and study this could have been achieved.
+	3. How difficult will it be generating test cases for temporal requirements?
+		* This part was difficult for me. In fact I was not really able to make much headway on that as I was very pre-occupied with the text classifier aspect of the project.
