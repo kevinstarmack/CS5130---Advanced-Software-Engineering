@@ -16,7 +16,7 @@
 * Tell us the motivation of your approach/study:
 	* I chose to pick this topic because it is very relevant in the field of Requirements Engineering, a field of Computer Science I discovered this year and found very interesting
 * Limitations of existing work
-	* Existing work is inconclusive if there is actually a good way of determining temporal logic or not. There has been 1 paper about creating test cases through temporal logic, however it was a research paper with no public repository of code. I wanted to see if I could imitate their results
+	* Existing work is inconclusive if there is actually a good way of determining temporal logic or not. There has been 1 paper about creating test cases through temporal logic, however it was a research paper with no public repository of code. I wanted to see if I could imitate their results. The paper explores the __TestMEReq__ tool. I will be showing this during my project.
 	
 ## Background  
 * Technical background needed to understand your approach:
