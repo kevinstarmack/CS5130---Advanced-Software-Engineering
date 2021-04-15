@@ -2,13 +2,14 @@
 
 ## Introduction 
 * Tell us the problem you are addressing:
-	* The problem I am addressing is the ambiguity of temporal requirements in software engineering, and how they are important, as well as generating test cases for them
+	* Requirements are defined as the needs and desires of the stakeholder. Requirements Engineering is the process of defining, documenting, and maintaining requirements in the engineering design process. It is a common role in both systems engineering and software engineering.
+	* The problem I am addressing is the ambiguity of temporal requirements in software engineering, how they are important, and well as generating test cases for them
 * Why is the problem important?
 	* Temporal Software Requirements are very key in the field of not only Requirements Engineering but also in Software Engineering. Temporal Requirements are usually the most important from a schedule standpoint in the development process
 
 * __Research Questions__
-	1. aaa
-	2. bbb
+	1. Can text classification and part of speech tagging bridge the gap between formal and natural languages?
+	2. Is it possible to implement this in an automated fashion?
 	3. ccc
 
 ## Motivation 
@@ -28,22 +29,21 @@
 	
 ## Approach 
 * Overview, detailed technical stuff, examples, implementation
-	* Initially, I wanted to use a large dataset of circa 100 requirements and determine which were temporal and which were not.
+	* There was a lot of manual work done for this project. Such as manually determining which requirements are temporal or not based so that I could generate the proper training data for a supervised learning algorithm.
+	* I wanted to use a large dataset of circa 100 requirements and have the classifier determine which were temporal and which were not.
 	* I had began implementing an iPython notebook classifier using a neural network, as I thought this was my best bet
-	* Part of Speech tagging and creating a dictionary would be a large step in creating said classifier
+	* Part of Speech tagging and creating a dictionary would be a large step in aiding said classifier
 	* It is also very important to know what a test case is and what features determine whether a requirement can be tested.
-	* Another approach was to create an Excel sheet from these ~100 phrases that show us the pre-processing: Stemmed and stop word removal and removed punctuations First 200 words + 200 pos tags. From there the iPython notebook classifier can be used. (further explain)
-	* *go into the excel sheet you made
-	* *insert image and perhaps further explain
+	* Another approach was to create an Excel sheet from these ~100 phrases that show us the pre-processing: Stemmed and stop word removal and removed punctuations First 200 words + 200 pos tags. From there the iPython notebook classifier can be used.
+	* The contents of the excel sheet showed:
 	* Final implementation of the demo software itself was via Node-RED. Again, I will explain this software bfore the demo
 .
 ## Results
 * Results and analysis of the results
-	* The scale of the project is no where close to where I wanted it to be. Instead of having an ML solution, I had to create a makeshift application to try and display what I wanted to convey. However I believe I have laid good groundwork in an area that previously did not much physical work into itself.
-	* *img of Node-RED UI output
-
+	* The scale of the project is no where close to where I wanted it to be. Instead of having an ML solution, I had to create a makeshift application to try and display what I wanted to convey. However I believe I have laid good groundwork in an area that previously did not much physical work into itself. It is only able to process 1 requirement at a time with via a .txt file-input.
 * Insights and take-home messages
 	* The largest takeaway was to pick your battles and don’t jump around from idea to idea too much in a short term development process.
+	* Although this was a largly test-case application project, there is a lot of work to do when working with NLP. It is best to only try to tackle 1 thing at a time versus attempting to try 2 things at once
 	
 ## Limitations 
 * Technical limitations 
@@ -59,12 +59,4 @@
 * As I said before: __The largest takeaway was to pick your battles and don’t jump around from idea to idea too much in a short term development process.__
 	* I was never really given a foothold or a good place to start. I hit a lot of dead ends. This has happened in industry to myself and colleagues working in R&D projects.
 	* However, through this project, I have learned a lot about different software tools in ML.
-	* The intertwining of NLP and ML cannot be understressed.Without ML, there wouldn't be NLP. ML is the true workhorse of the modern computing age. 
-	
-## Demo 
-* *img of node-red node.js command
-* How my implementation works:
-	* First of all, Node-RED is ...
-
-* __Ideally, a UI like the below was the ultimate goal__
-* <insert some img>
+	* The intertwining of NLP and ML cannot be understressed. Without ML, there wouldn't be NLP. ML is the true workhorse of the modern computing age. 
