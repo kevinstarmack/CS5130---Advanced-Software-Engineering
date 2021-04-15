@@ -17,7 +17,8 @@
 	* I chose to pick this topic because it is very relevant in the field of Requirements Engineering, a field of Computer Science I discovered this year and found very interesting
 	* My primary motivation stems from curiosity in the subject of requirements engineering, and the lack of literature and hard data to back up exactly what I was exploring.
 * Limitations of existing work
-	* Existing work is inconclusive if there is actually a good way of determining temporal logic or not. There has been 1 paper about creating test cases through temporal logic, however it was a research paper with no public repository of code. I wanted to see if I could imitate their results. The paper explores the __TestMEReq__ tool. I will be showing this during my project.
+	* Existing work is inconclusive if there is actually a good way of determining temporal logic or not. There has been 1 paper about creating test cases through temporal logic, however it was a research paper with no public repository of code. I wanted to see if I could imitate their results. The paper explores the __TestMEReq__ tool.
+	* __TestMEReq__ is an automated tool for early validation of requirements. TestMEReq supports requirements engineers (REs) in the validation of the correctness, completeness and consistency of elicited requirements with minimum effort and time through generated abstract tests components: test requirements and test cases, and a mock-up prototype of the user interface (UI). Abstract tests are derived from abstract models called Essential Use Cases (EUCs) and the Essential User Interface (EUI). Evaluation results show that TestMEReq is useful in the requirements validation process: it reduces the effort and time spent to ensure good quality requirements.
 	
 ## Background  
 * Technical background needed to understand your approach:
