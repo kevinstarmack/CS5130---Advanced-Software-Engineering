@@ -7,10 +7,10 @@
 * Why is the problem important?
 	* Temporal Software Requirements are very key in the field of not only Requirements Engineering but also in Software Engineering. Temporal Requirements are usually the most important from a schedule standpoint in the development process
 
-* __Research Questions__
+* __Basic Research Questions__
 	1. Can text classification and part of speech tagging bridge the gap between formal and natural languages?
 	2. Is it possible to implement this in an automated fashion?
-	3. ccc
+	3. How difficult will it be generating test cases for temporal requirements?
 
 ## Motivation 
 * Tell us the motivation of your approach/study:
