@@ -23,20 +23,23 @@
 	* A background in Natural Language Processing (NLP), knowledge of text classifiers, machine learning as well as terminology used in the field of Requirements Engineering
 	* In the initial stages of development, I was using the Jupyter notebook alongside Python to create a classifier. Jupyter was new to me.
 	* In my final approach to attempting to solve the problem, I used a software called "Node-RED." It did a lot of the work for me, however it required a switch-up in which programming language I used, shifiting from Python to JavaScript
-	* It would be helpful to know what Node-RED is before looking at my actual implementation. I will briefly explain Node-RED before going into the demo.
+	* It would be helpful to know what Node-RED is before looking at my actual implementation. Node-RED is a flow-based development tool for visual programming developed originally by IBM for wiring together hardware devices, APIs and online services as part of the Internet of Things. It is very user friendly.
+	* Node-RED provides a web browser-based flow editor, which can be used to create JavaScript functions. Elements of applications can be saved or shared for re-use. The runtime is built on Node.js. The flows created in Node-RED are stored using JSON.
 	* From a technological standpoint, to emulate my project, one needs a background in either Python or JavaScript. Initially I was going to use Python, but instead opted to use JavaScript.
 	* Other background needed would be: the knowledge of Part of Speech tagging (POS tagging) and its correlation to Temporal Requirements, knowing what a test case is, and how to generate a test case based off of a requirement, temporal or non-temporal
 	
 ## Approach 
-* Overview, detailed technical stuff, examples, implementation
+* Overview, detailed technical material, examples, implementation
 	* There was a lot of manual work done for this project. Such as manually determining which requirements are temporal or not based so that I could generate the proper training data for a supervised learning algorithm.
 	* I wanted to use a large dataset of circa 100 requirements and have the classifier determine which were temporal and which were not.
 	* I had began implementing an iPython notebook classifier using a neural network, as I thought this was my best bet
 	* Part of Speech tagging and creating a dictionary would be a large step in aiding said classifier
 	* It is also very important to know what a test case is and what features determine whether a requirement can be tested.
 	* Another approach was to create an Excel sheet from these ~100 phrases that show us the pre-processing: Stemmed and stop word removal and removed punctuations First 200 words + 200 pos tags. From there the iPython notebook classifier can be used.
-	* The contents of the excel sheet showed:
-	* Final implementation of the demo software itself was via Node-RED. Again, I will explain this software bfore the demo
+	* The contents of the excel sheet showed: The word frequency and PoS tags of the 111 requirements listed under the folder 'Requirements Documents' of the main branch. This was required to be done before any classification could be done
+	* Ideally, this would have lead to an output that leads to ideal training data
+	* For the sake of having a deliverable, I was forced to use Node-RED for an easy to demonstrate execution of my ideal results
+	* Final implementation of the demo software itself was via Node-RED.
 .
 ## Results
 * Results and analysis of the results
